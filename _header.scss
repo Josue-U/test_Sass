@@ -1,0 +1,17 @@
+
+header{
+   
+    height: 500px;
+    color: $textColor;
+    background: lightblue;
+
+    button{
+        background: $primaryBtn;
+        &::after{
+            content: "yellow";
+        }
+        &:hover{
+            background: red;
+        }
+    }
+}
